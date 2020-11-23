@@ -1,0 +1,114 @@
+<annotation>
+    <folder>images</folder>
+    <filename>crop_1_crop_0_2386-compressed.png</filename>
+    <path>/home/badhon/Documents/thesis/dataset_sampled/wheat/usask_1/images/crop_1_crop_0_2386-compressed.png</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>1024</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>269</xmin>
+            <ymin>178</ymin>
+            <xmax>419</xmax>
+            <ymax>274</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>178</ymin>
+            <xmax>173</xmax>
+            <ymax>295</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>141</xmin>
+            <ymin>188</ymin>
+            <xmax>348</xmax>
+            <ymax>387</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>808</xmin>
+            <ymin>954</ymin>
+            <xmax>965</xmax>
+            <ymax>1024</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>43</xmin>
+            <ymin>852</ymin>
+            <xmax>177</xmax>
+            <ymax>965</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>135</xmin>
+            <ymin>0</ymin>
+            <xmax>286</xmax>
+            <ymax>94</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>155</xmin>
+            <ymin>655</ymin>
+            <xmax>278</xmax>
+            <ymax>815</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>513</xmin>
+            <ymin>914</ymin>
+            <xmax>659</xmax>
+            <ymax>1003</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>wheat_head</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>153</xmin>
+            <ymin>33</ymin>
+            <xmax>262</xmax>
+            <ymax>115</ymax>
+        </bndbox>
+    </object>
+</annotation>
