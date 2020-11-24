@@ -34,3 +34,4 @@ border="10" /></a>
 - [] Python 2.7
     - conda create -n python2 python=2.7 anaconda
     - source activate python2
+    - Pause 
