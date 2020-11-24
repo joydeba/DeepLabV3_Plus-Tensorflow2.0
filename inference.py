@@ -50,34 +50,34 @@ def pipeline(image, video=True, return_seg=False, fname='', folder=''):
 
 #         plt.imshow(img_color/255.0)
 #         plt.imshow(out)
-        return cv2.imwrite(f'outputs/{folder}/{fname}', cv2.cvtColor(img_color, cv2.COLOR_RGB2BGR))
+        return cv2.imwrite('outputs/{folder}/{fname}', cv2.cvtColor(img_color, cv2.COLOR_RGB2BGR))
 
 
 image_dir = '/home/mia/backup/research/autonomous_driving/cityscapes/dataset/val_images'
 image_list = os.listdir(image_dir)
 image_list.sort()
-print(f'{len(image_list)} frames found')
+print('{len(image_list)} frames found')
 
 
-test = load_img(f'{image_dir}/{image_list[1]}')
+test = load_img('{image_dir}/{image_list[1]}')
 test = img_to_array(test)
 pipeline(test, video=False)
 
 for image_dir in ['stuttgart_00', 'stuttgart_01', 'stuttgart_02']:
-    os.mkdir(f'outputs/{image_dir}')
+    os.mkdir('outputs/{image_dir}')
     image_list = os.listdir(image_dir)
     image_list.sort()
-    print(f'{len(image_list)} frames found')
+    print('{len(image_list)} frames found')
     for i in tqdm(range(len(image_list))):
         try:
-            test = load_img(f'{image_dir}/{image_list[i]}')
+            test = load_img('{image_dir}/{image_list[i]}')
             test = img_to_array(test)
             segmap = pipeline(test, video=False,
-                              fname=f'{image_list[i]}', folder=image_dir)
+                              fname='{image_list[i]}', folder=image_dir)
             if segmap == False:
                 break
         except Exception as e:
             print(str(e))
     clip = ImageSequenceClip(
-        sorted(glob(f'outputs/{image_dir}/*')), fps=18, load_images=True)
-    clip.write_videofile(f'{image_dir}.mp4')
+        sorted(glob('outputs/{image_dir}/*')), fps=18, load_images=True)
+    clip.write_videofile('{image_dir}.mp4')
