@@ -27,3 +27,8 @@ border="10" /></a>
 - [x] Implement data input pipeline using tf.data.Dataset 
 - [x] Train on cityscapes
 - [ ] Implement modified Xception backbone as originally mentioned in the paper
+
+
+## Requrements 
+
+- [] Python 2.7
